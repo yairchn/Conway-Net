@@ -1,0 +1,45 @@
+{
+  "mechanism": "none",
+  "network_class": "BaselineCNN",
+  "data_name": "MNIST",
+  "activation": "tanh",
+  "n_params": 110986,
+  "best_val_acc": 0.9906651108518086,
+  "last_val_acc": 0.9901650275045841,
+  "test_clean_acc": 0.9893,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ],
+  "clean": 0.988,
+  "mCA": 0.881,
+  "noise_mCA": 0.881,
+  "per_corruption": {
+    "gaussian_noise": [
+      0.986,
+      0.985,
+      0.9815,
+      0.8855,
+      0.6625
+    ],
+    "shot_noise": [
+      0.986,
+      0.9855,
+      0.984,
+      0.9785,
+      0.9685
+    ],
+    "impulse_noise": [
+      0.9735,
+      0.915,
+      0.8265,
+      0.643,
+      0.454
+    ]
+  }
+}

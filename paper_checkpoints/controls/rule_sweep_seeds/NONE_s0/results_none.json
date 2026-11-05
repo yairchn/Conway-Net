@@ -1,0 +1,18 @@
+{
+  "mechanism": "none",
+  "network_class": "FullyConnectedNet",
+  "data_name": "MNIST",
+  "activation": "tanh",
+  "n_params": 6177930,
+  "best_val_acc": 0.9764960826804467,
+  "last_val_acc": 0.975162527087848,
+  "test_clean_acc": 0.9757,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ]
+}

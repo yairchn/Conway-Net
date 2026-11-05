@@ -1,0 +1,8 @@
+{
+  "arm": "localmix",
+  "seed": 2,
+  "best_val_acc": 0.9834972495415902,
+  "last_val_acc": 0.9823303883980663,
+  "test_clean_acc": 0.9827,
+  "config": "configs/paper/tanh/fcn_mnist_tanh_ns_ki_ca.json"
+}

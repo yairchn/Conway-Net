@@ -1,0 +1,25 @@
+Patent notice
+
+The method implemented in this software (cellular-automaton lateral inhibition: state-conditioned lateral
+inhibition and excitation of a layer's activations by continuous cellular-automaton rules computed from the
+layer's input) is the subject of the following patent applications. Inventor and owner of both: Yair Cohen.
+
+  International (PCT) Patent Application No. PCT/IL2026/050267
+    Filed:    24 March 2026
+    Title:    Noise-robust inference device using post-activation lateral interaction in artificial neural networks
+    Priority: claims priority to U.S. Provisional Application No. 63/860,671
+    Status:   international phase pending
+
+  U.S. Provisional Patent Application No. 63/860,671
+    Filed:    8 August 2025
+    Title:    State-conditioned lateral inhibition/excitation via continuous cellular-automaton rules for
+              activation in deep neural networks
+    Type:     provisional (35 U.S.C. 111(b))
+
+The two applications relate to the same underlying invention to the extent of the subject matter disclosed in
+both; the PCT application claims priority to the provisional application. Any difference in titles is for
+identification purposes only.
+
+Use of this software for noncommercial purposes is licensed under the PolyForm Noncommercial License 1.0.0
+(LICENSE), including its patent license. Any commercial use of the software or of the patented method requires a
+separate license from Yair Cohen.

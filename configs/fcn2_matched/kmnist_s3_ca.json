@@ -1,0 +1,80 @@
+{
+  "model": {
+    "network_class": "FullyConnectedNet",
+    "n_hidden_layers": 2,
+    "hidden_size": null,
+    "norm": "layernorm",
+    "dropout": 0.0,
+    "init_method": "uniform",
+    "weight_init_min": -1.0,
+    "weight_init_max": 1.0,
+    "activation": "tanh",
+    "matched_none": false,
+    "stem_lift": false,
+    "stem_norm": "groupnorm",
+    "init_classifier": "kaiming"
+  },
+  "lateral_inhibition": {
+    "mechanism": "ca",
+    "rule": "B5/S3",
+    "gamma": 15.0,
+    "delta": 0.5,
+    "normalize_gates": true,
+    "require_rescaling": true,
+    "require_zero_centring": true,
+    "channel_reduce": "mean",
+    "channel_reduce_stage": "gates",
+    "num_groups": null,
+    "neighbourhood_radius": 1
+  },
+  "optimizer": {
+    "type": "adam",
+    "lr": 0.001,
+    "weight_decay": 0.0
+  },
+  "training": {
+    "num_epochs": 1000,
+    "batch_size": 512,
+    "seed": 3,
+    "lr_schedule": "constant",
+    "max_norm": 1000.0,
+    "num_workers": 2,
+    "device": "cuda",
+    "val_frac": 0.1,
+    "split_seed": 42,
+    "matched_target_offset": 0.0025,
+    "matched_safety_margin": 5,
+    "matched_lr_min_factor": 0.1,
+    "val_history_out": "paper_runs/fcn2_matched_kmnist_s3/val_history_ca.json"
+  },
+  "augmentation": {
+    "augmix_severity": 0,
+    "augmix_width": 3,
+    "augmix_alpha": 1.0,
+    "affine_rotate_deg": 15.0,
+    "affine_translate_px": 3,
+    "affine_scale_min": 0.95,
+    "affine_scale_max": 1.05,
+    "affine_shear_deg": 10.0
+  },
+  "evaluation": {
+    "eval_mca": false,
+    "mca_corruptions": "noise",
+    "mca_n_samples": 2000
+  },
+  "data": {
+    "data_name": "KMNIST",
+    "data_path": "./data",
+    "data_norms": [
+      [
+        0.5
+      ],
+      [
+        0.5
+      ]
+    ]
+  },
+  "logging": {
+    "output_path": "paper_runs/fcn2_matched_kmnist_s3"
+  }
+}

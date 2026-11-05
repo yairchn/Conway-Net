@@ -1,0 +1,8 @@
+{
+  "arm": "randnb",
+  "seed": 2,
+  "best_val_acc": 0.3332222037006168,
+  "last_val_acc": 0.3293882313718953,
+  "test_clean_acc": 0.3394,
+  "config": "configs/paper/tanh/fcn_mnist_tanh_ns_ki_ca.json"
+}

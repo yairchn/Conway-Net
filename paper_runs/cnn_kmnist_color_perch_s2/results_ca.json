@@ -1,0 +1,49 @@
+{
+  "mechanism": "ca",
+  "network_class": "BaselineCNN",
+  "data_name": "KMNIST_COLOR",
+  "activation": "tanh",
+  "n_params": 111562,
+  "best_val_acc": 0.9596666666666667,
+  "last_val_acc": 0.9578333333333333,
+  "test_clean_acc": 0.8876,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5
+    ]
+  ],
+  "clean": 0.8895,
+  "mCA": 0.7015333333333333,
+  "noise_mCA": 0.7015333333333333,
+  "per_corruption": {
+    "gaussian_noise": [
+      0.8885,
+      0.875,
+      0.8405,
+      0.6825,
+      0.324
+    ],
+    "shot_noise": [
+      0.8845,
+      0.874,
+      0.8395,
+      0.645,
+      0.443
+    ],
+    "impulse_noise": [
+      0.8775,
+      0.8445,
+      0.777,
+      0.499,
+      0.2285
+    ]
+  }
+}

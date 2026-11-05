@@ -1,0 +1,19 @@
+{
+  "mechanism": "ca",
+  "network_class": "FullyConnectedNet",
+  "data_name": "KMNIST",
+  "activation": "tanh",
+  "n_params": 1241866,
+  "best_val_acc": 0.9691666666666666,
+  "last_val_acc": 0.9643333333333334,
+  "test_clean_acc": 0.9181,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ]
+}

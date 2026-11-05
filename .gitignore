@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+
+# data & run artifacts (never commit large binaries)
+data/
+runs/
+experiments/
+*.pth
+*.pt
+*.nc
+*.log
+
+# intermediate video clips and logs
+paper_figures/out/video_clips/
+paper_figures/out/log_*.txt
+diagnostics/fcn10_cube_all_digits/

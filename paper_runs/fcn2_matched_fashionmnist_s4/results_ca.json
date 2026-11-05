@@ -1,0 +1,19 @@
+{
+  "mechanism": "ca",
+  "network_class": "FullyConnectedNet",
+  "data_name": "FashionMNIST",
+  "activation": "tanh",
+  "n_params": 1241866,
+  "best_val_acc": 0.8708333333333333,
+  "last_val_acc": 0.8615,
+  "test_clean_acc": 0.8637,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ]
+}

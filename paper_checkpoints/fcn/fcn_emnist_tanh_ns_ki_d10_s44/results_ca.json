@@ -1,0 +1,45 @@
+{
+  "mechanism": "ca",
+  "network_class": "FullyConnectedNet",
+  "data_name": "EMNIST",
+  "activation": "tanh",
+  "n_params": 6206975,
+  "best_val_acc": 0.8090425531914893,
+  "last_val_acc": 0.8022163120567376,
+  "test_clean_acc": 0.8086170212765957,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ],
+  "clean": 0.8035,
+  "mCA": 0.7216000000000001,
+  "noise_mCA": 0.7216000000000001,
+  "per_corruption": {
+    "gaussian_noise": [
+      0.8005,
+      0.793,
+      0.7585,
+      0.6725,
+      0.431
+    ],
+    "shot_noise": [
+      0.804,
+      0.801,
+      0.7945,
+      0.777,
+      0.77
+    ],
+    "impulse_noise": [
+      0.801,
+      0.793,
+      0.77,
+      0.675,
+      0.383
+    ]
+  }
+}

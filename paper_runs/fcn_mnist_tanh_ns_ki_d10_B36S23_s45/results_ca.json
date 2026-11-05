@@ -1,0 +1,45 @@
+{
+  "mechanism": "ca",
+  "network_class": "FullyConnectedNet",
+  "data_name": "MNIST",
+  "activation": "tanh",
+  "n_params": 6177930,
+  "best_val_acc": 0.9674945824304051,
+  "last_val_acc": 0.9604934155692615,
+  "test_clean_acc": 0.9672,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ],
+  "clean": 0.972,
+  "mCA": 0.41806666666666664,
+  "noise_mCA": 0.41806666666666664,
+  "per_corruption": {
+    "gaussian_noise": [
+      0.147,
+      0.1425,
+      0.0705,
+      0.1055,
+      0.122
+    ],
+    "shot_noise": [
+      0.9705,
+      0.967,
+      0.964,
+      0.948,
+      0.937
+    ],
+    "impulse_noise": [
+      0.382,
+      0.1815,
+      0.1285,
+      0.0925,
+      0.1125
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "mechanism": "ca",
+  "network_class": "GraphGCN",
+  "data_name": "MNIST",
+  "activation": "tanh",
+  "n_params": 125754,
+  "best_val_acc": 0.9388231371895316,
+  "last_val_acc": 0.9266544424070678,
+  "test_clean_acc": 0.9358,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ],
+  "clean": 0.9335,
+  "mCA": 0.8258333333333333,
+  "noise_mCA": 0.8258333333333333,
+  "per_corruption": {
+    "gaussian_noise": [
+      0.933,
+      0.9345,
+      0.8985,
+      0.7885,
+      0.506
+    ],
+    "shot_noise": [
+      0.938,
+      0.934,
+      0.9145,
+      0.875,
+      0.8345
+    ],
+    "impulse_noise": [
+      0.9255,
+      0.908,
+      0.861,
+      0.6895,
+      0.447
+    ]
+  }
+}

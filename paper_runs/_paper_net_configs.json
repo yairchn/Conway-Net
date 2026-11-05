@@ -1,0 +1,419 @@
+{
+ "fcn_mnist_tanh_ns_ki_d10": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_ca.json",
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_none.json"
+ ],
+ "fcn_fashionmnist_tanh_ns_ki_d10": [
+  "configs/paper/tanh/fcn_fashionmnist_tanh_ns_ki_ca.json",
+  "configs/paper/tanh/fcn_fashionmnist_tanh_ns_ki_none.json"
+ ],
+ "fcn_kmnist_tanh_ns_ki_d10": [
+  "configs/paper/tanh/fcn_kmnist_tanh_ns_ki_ca.json",
+  "configs/paper/tanh/fcn_kmnist_tanh_ns_ki_none.json"
+ ],
+ "fcn_emnist_tanh_ns_ki_d10": [
+  "configs/paper/tanh/fcn_emnist_tanh_ns_ki_ca.json",
+  "configs/paper/tanh/fcn_emnist_tanh_ns_ki_none.json"
+ ],
+ "wrn_cifar10": [
+  "configs/paper/wrn_cifar10_ca.json",
+  "configs/paper/wrn_cifar10_none.json"
+ ],
+ "wrn_emnist": [
+  "configs/paper/wrn_emnist_ca.json",
+  "configs/paper/wrn_emnist_none.json"
+ ],
+ "cnn_mnist_perch": [
+  "configs/paper/cnn_mnist_perch_ca.json",
+  "configs/paper/cnn_mnist_perch_none.json"
+ ],
+ "cnn_mnist_perch_s1": [
+  "configs/paper/cnn_mnist_perch_s1_ca.json",
+  "configs/paper/cnn_mnist_perch_s1_none.json"
+ ],
+ "cnn_fashionmnist_perch": [
+  "configs/paper/cnn_fashionmnist_perch_ca.json",
+  "configs/paper/cnn_fashionmnist_perch_none.json"
+ ],
+ "cnn_fashionmnist_perch_s1": [
+  "configs/paper/cnn_fashionmnist_perch_s1_ca.json",
+  "configs/paper/cnn_fashionmnist_perch_s1_none.json"
+ ],
+ "cnn_kmnist_perch": [
+  "configs/paper/cnn_kmnist_perch_ca.json",
+  "configs/paper/cnn_kmnist_perch_none.json"
+ ],
+ "cnn_kmnist_perch_s1": [
+  "configs/paper/cnn_kmnist_perch_s1_ca.json",
+  "configs/paper/cnn_kmnist_perch_s1_none.json"
+ ],
+ "cnn_emnist_perch": [
+  "configs/paper/cnn_emnist_perch_ca.json",
+  "configs/paper/cnn_emnist_perch_none.json"
+ ],
+ "cnn_mnist_color_perch": [
+  "configs/paper/cnn_mnist_color_perch_ca.json",
+  "configs/paper/cnn_mnist_color_perch_none.json"
+ ],
+ "cnn_mnist_color_perch_s1": [
+  "configs/paper/cnn_mnist_color_perch_s1_ca.json",
+  "configs/paper/cnn_mnist_color_perch_s1_none.json"
+ ],
+ "cnn_fashionmnist_color_perch": [
+  "configs/paper/cnn_fashionmnist_color_perch_ca.json",
+  "configs/paper/cnn_fashionmnist_color_perch_none.json"
+ ],
+ "cnn_fashionmnist_color_perch_s1": [
+  "configs/paper/cnn_fashionmnist_color_perch_s1_ca.json",
+  "configs/paper/cnn_fashionmnist_color_perch_s1_none.json"
+ ],
+ "cnn_kmnist_color_perch": [
+  "configs/paper/cnn_kmnist_color_perch_ca.json",
+  "configs/paper/cnn_kmnist_color_perch_none.json"
+ ],
+ "cnn_kmnist_color_perch_s1": [
+  "configs/paper/cnn_kmnist_color_perch_s1_ca.json",
+  "configs/paper/cnn_kmnist_color_perch_s1_none.json"
+ ],
+ "cnn_emnist_color_perch": [
+  "configs/paper/cnn_emnist_color_perch_ca.json",
+  "configs/paper/cnn_emnist_color_perch_none.json"
+ ],
+ "cnn_emnist_color_perch_s1": [
+  "configs/paper/cnn_emnist_color_perch_s1_ca.json",
+  "configs/paper/cnn_emnist_color_perch_s1_none.json"
+ ],
+ "cnn_emnist_perch_s1": [
+  "configs/paper/cnn_emnist_perch_s1_ca.json",
+  "configs/paper/cnn_emnist_perch_s1_none.json"
+ ],
+ "cnn_mnist_perch_s2": [
+  "configs/paper/cnn_mnist_perch_s2_ca.json",
+  "configs/paper/cnn_mnist_perch_s2_none.json"
+ ],
+ "cnn_mnist_perch_s3": [
+  "configs/paper/cnn_mnist_perch_s3_ca.json",
+  "configs/paper/cnn_mnist_perch_s3_none.json"
+ ],
+ "cnn_mnist_perch_s4": [
+  "configs/paper/cnn_mnist_perch_s4_ca.json",
+  "configs/paper/cnn_mnist_perch_s4_none.json"
+ ],
+ "cnn_mnist_color_perch_s2": [
+  "configs/paper/cnn_mnist_color_perch_s2_ca.json",
+  "configs/paper/cnn_mnist_color_perch_s2_none.json"
+ ],
+ "cnn_mnist_color_perch_s3": [
+  "configs/paper/cnn_mnist_color_perch_s3_ca.json",
+  "configs/paper/cnn_mnist_color_perch_s3_none.json"
+ ],
+ "cnn_mnist_color_perch_s4": [
+  "configs/paper/cnn_mnist_color_perch_s4_ca.json",
+  "configs/paper/cnn_mnist_color_perch_s4_none.json"
+ ],
+ "cnn_fashionmnist_perch_s2": [
+  "configs/paper/cnn_fashionmnist_perch_s2_ca.json",
+  "configs/paper/cnn_fashionmnist_perch_s2_none.json"
+ ],
+ "cnn_fashionmnist_perch_s3": [
+  "configs/paper/cnn_fashionmnist_perch_s3_ca.json",
+  "configs/paper/cnn_fashionmnist_perch_s3_none.json"
+ ],
+ "cnn_fashionmnist_perch_s4": [
+  "configs/paper/cnn_fashionmnist_perch_s4_ca.json",
+  "configs/paper/cnn_fashionmnist_perch_s4_none.json"
+ ],
+ "cnn_fashionmnist_color_perch_s2": [
+  "configs/paper/cnn_fashionmnist_color_perch_s2_ca.json",
+  "configs/paper/cnn_fashionmnist_color_perch_s2_none.json"
+ ],
+ "cnn_fashionmnist_color_perch_s3": [
+  "configs/paper/cnn_fashionmnist_color_perch_s3_ca.json",
+  "configs/paper/cnn_fashionmnist_color_perch_s3_none.json"
+ ],
+ "cnn_fashionmnist_color_perch_s4": [
+  "configs/paper/cnn_fashionmnist_color_perch_s4_ca.json",
+  "configs/paper/cnn_fashionmnist_color_perch_s4_none.json"
+ ],
+ "cnn_kmnist_perch_s2": [
+  "configs/paper/cnn_kmnist_perch_s2_ca.json",
+  "configs/paper/cnn_kmnist_perch_s2_none.json"
+ ],
+ "cnn_kmnist_perch_s3": [
+  "configs/paper/cnn_kmnist_perch_s3_ca.json",
+  "configs/paper/cnn_kmnist_perch_s3_none.json"
+ ],
+ "cnn_kmnist_perch_s4": [
+  "configs/paper/cnn_kmnist_perch_s4_ca.json",
+  "configs/paper/cnn_kmnist_perch_s4_none.json"
+ ],
+ "cnn_kmnist_color_perch_s2": [
+  "configs/paper/cnn_kmnist_color_perch_s2_ca.json",
+  "configs/paper/cnn_kmnist_color_perch_s2_none.json"
+ ],
+ "cnn_kmnist_color_perch_s3": [
+  "configs/paper/cnn_kmnist_color_perch_s3_ca.json",
+  "configs/paper/cnn_kmnist_color_perch_s3_none.json"
+ ],
+ "cnn_kmnist_color_perch_s4": [
+  "configs/paper/cnn_kmnist_color_perch_s4_ca.json",
+  "configs/paper/cnn_kmnist_color_perch_s4_none.json"
+ ],
+ "cnn_emnist_perch_s2": [
+  "configs/paper/cnn_emnist_perch_s2_ca.json",
+  "configs/paper/cnn_emnist_perch_s2_none.json"
+ ],
+ "cnn_emnist_perch_s3": [
+  "configs/paper/cnn_emnist_perch_s3_ca.json",
+  "configs/paper/cnn_emnist_perch_s3_none.json"
+ ],
+ "cnn_emnist_perch_s4": [
+  "configs/paper/cnn_emnist_perch_s4_ca.json",
+  "configs/paper/cnn_emnist_perch_s4_none.json"
+ ],
+ "cnn_emnist_color_perch_s2": [
+  "configs/paper/cnn_emnist_color_perch_s2_ca.json",
+  "configs/paper/cnn_emnist_color_perch_s2_none.json"
+ ],
+ "cnn_emnist_color_perch_s3": [
+  "configs/paper/cnn_emnist_color_perch_s3_ca.json",
+  "configs/paper/cnn_emnist_color_perch_s3_none.json"
+ ],
+ "cnn_emnist_color_perch_s4": [
+  "configs/paper/cnn_emnist_color_perch_s4_ca.json",
+  "configs/paper/cnn_emnist_color_perch_s4_none.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_s43_ca.json",
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_s43_none.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_s44_ca.json",
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_s44_none.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_s45": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_s45_ca.json",
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_s45_none.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_s46": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_s46_ca.json",
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_s46_none.json"
+ ],
+ "fcn_fashionmnist_tanh_ns_ki_d10_s43": [
+  "configs/paper/tanh/fcn_fashionmnist_tanh_ns_ki_d10_s43_ca.json",
+  "configs/paper/tanh/fcn_fashionmnist_tanh_ns_ki_d10_s43_none.json"
+ ],
+ "fcn_fashionmnist_tanh_ns_ki_d10_s44": [
+  "configs/paper/tanh/fcn_fashionmnist_tanh_ns_ki_d10_s44_ca.json",
+  "configs/paper/tanh/fcn_fashionmnist_tanh_ns_ki_d10_s44_none.json"
+ ],
+ "fcn_fashionmnist_tanh_ns_ki_d10_s45": [
+  "configs/paper/tanh/fcn_fashionmnist_tanh_ns_ki_d10_s45_ca.json",
+  "configs/paper/tanh/fcn_fashionmnist_tanh_ns_ki_d10_s45_none.json"
+ ],
+ "fcn_fashionmnist_tanh_ns_ki_d10_s46": [
+  "configs/paper/tanh/fcn_fashionmnist_tanh_ns_ki_d10_s46_ca.json",
+  "configs/paper/tanh/fcn_fashionmnist_tanh_ns_ki_d10_s46_none.json"
+ ],
+ "fcn_kmnist_tanh_ns_ki_d10_s43": [
+  "configs/paper/tanh/fcn_kmnist_tanh_ns_ki_d10_s43_ca.json",
+  "configs/paper/tanh/fcn_kmnist_tanh_ns_ki_d10_s43_none.json"
+ ],
+ "fcn_kmnist_tanh_ns_ki_d10_s44": [
+  "configs/paper/tanh/fcn_kmnist_tanh_ns_ki_d10_s44_ca.json",
+  "configs/paper/tanh/fcn_kmnist_tanh_ns_ki_d10_s44_none.json"
+ ],
+ "fcn_kmnist_tanh_ns_ki_d10_s45": [
+  "configs/paper/tanh/fcn_kmnist_tanh_ns_ki_d10_s45_ca.json",
+  "configs/paper/tanh/fcn_kmnist_tanh_ns_ki_d10_s45_none.json"
+ ],
+ "fcn_kmnist_tanh_ns_ki_d10_s46": [
+  "configs/paper/tanh/fcn_kmnist_tanh_ns_ki_d10_s46_ca.json",
+  "configs/paper/tanh/fcn_kmnist_tanh_ns_ki_d10_s46_none.json"
+ ],
+ "fcn_emnist_tanh_ns_ki_d10_s43": [
+  "configs/paper/tanh/fcn_emnist_tanh_ns_ki_d10_s43_ca.json",
+  "configs/paper/tanh/fcn_emnist_tanh_ns_ki_d10_s43_none.json"
+ ],
+ "fcn_emnist_tanh_ns_ki_d10_s44": [
+  "configs/paper/tanh/fcn_emnist_tanh_ns_ki_d10_s44_ca.json",
+  "configs/paper/tanh/fcn_emnist_tanh_ns_ki_d10_s44_none.json"
+ ],
+ "fcn_emnist_tanh_ns_ki_d10_s45": [
+  "configs/paper/tanh/fcn_emnist_tanh_ns_ki_d10_s45_ca.json",
+  "configs/paper/tanh/fcn_emnist_tanh_ns_ki_d10_s45_none.json"
+ ],
+ "fcn_emnist_tanh_ns_ki_d10_s46": [
+  "configs/paper/tanh/fcn_emnist_tanh_ns_ki_d10_s46_ca.json",
+  "configs/paper/tanh/fcn_emnist_tanh_ns_ki_d10_s46_none.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_r2_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_r2_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_r2_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_r2_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_r2_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_r2_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_r0_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_r0_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_r0_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_r0_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_r0_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_r0_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3S3_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3S3_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3S3_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3S3_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3S3_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3S3_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3S3_s45": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3S3_s45_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3S3_s46": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3S3_s46_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3S23_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3S23_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3S23_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3S23_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3S23_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3S23_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3S23_s45": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3S23_s45_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3S23_s46": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3S23_s46_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B2S_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B2S_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B2S_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B2S_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B2S_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B2S_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B2S_s45": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B2S_s45_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B2S_s46": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B2S_s46_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B1357S1357_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B1357S1357_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B1357S1357_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B1357S1357_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B1357S1357_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B1357S1357_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B1357S1357_s45": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B1357S1357_s45_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B1357S1357_s46": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B1357S1357_s46_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B34S34_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B34S34_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B34S34_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B34S34_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B34S34_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B34S34_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B34S34_s45": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B34S34_s45_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B34S34_s46": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B34S34_s46_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B36S23_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B36S23_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B36S23_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B36S23_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B36S23_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B36S23_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B36S23_s45": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B36S23_s45_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B36S23_s46": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B36S23_s46_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3678S34678_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3678S34678_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3678S34678_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3678S34678_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3678S34678_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3678S34678_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3678S34678_s45": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3678S34678_s45_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B3678S34678_s46": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B3678S34678_s46_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B45678S2345_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B45678S2345_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B45678S2345_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B45678S2345_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B45678S2345_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B45678S2345_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B45678S2345_s45": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B45678S2345_s45_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B45678S2345_s46": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B45678S2345_s46_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B5S23_s42": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B5S23_s42_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B5S23_s43": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B5S23_s43_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B5S23_s44": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B5S23_s44_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B5S23_s45": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B5S23_s45_ca.json"
+ ],
+ "fcn_mnist_tanh_ns_ki_d10_B5S23_s46": [
+  "configs/paper/tanh/fcn_mnist_tanh_ns_ki_d10_B5S23_s46_ca.json"
+ ],
+ "wrn_cifar10_s1": [
+  "configs/paper/wrn_seeds/wrn_cifar10_s1_ca.json",
+  "configs/paper/wrn_seeds/wrn_cifar10_s1_none.json"
+ ],
+ "wrn_cifar10_s2": [
+  "configs/paper/wrn_seeds/wrn_cifar10_s2_ca.json",
+  "configs/paper/wrn_seeds/wrn_cifar10_s2_none.json"
+ ],
+ "wrn_cifar10_s3": [
+  "configs/paper/wrn_seeds/wrn_cifar10_s3_ca.json",
+  "configs/paper/wrn_seeds/wrn_cifar10_s3_none.json"
+ ],
+ "wrn_cifar10_s4": [
+  "configs/paper/wrn_seeds/wrn_cifar10_s4_ca.json",
+  "configs/paper/wrn_seeds/wrn_cifar10_s4_none.json"
+ ]
+}

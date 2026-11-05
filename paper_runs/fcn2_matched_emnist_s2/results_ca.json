@@ -1,0 +1,19 @@
+{
+  "mechanism": "ca",
+  "network_class": "FullyConnectedNet",
+  "data_name": "EMNIST",
+  "activation": "tanh",
+  "n_params": 1270911,
+  "best_val_acc": 0.8552304964539007,
+  "last_val_acc": 0.848758865248227,
+  "test_clean_acc": 0.8496808510638297,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ]
+}

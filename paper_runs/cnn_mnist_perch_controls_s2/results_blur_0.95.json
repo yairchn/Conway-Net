@@ -1,0 +1,31 @@
+{
+  "arm": "blur_0.95",
+  "config": "configs/paper/cnn_mnist_perch_ca.json",
+  "best_val_acc": 0.977329554925821,
+  "last_val_acc": 0.9738289714952492,
+  "test_clean_acc": 0.9775,
+  "noise_mCA": 0.9057666666666665,
+  "per_corruption": {
+    "gaussian_noise": [
+      0.9765,
+      0.97,
+      0.9535,
+      0.8955,
+      0.716
+    ],
+    "shot_noise": [
+      0.978,
+      0.9745,
+      0.9705,
+      0.95,
+      0.9325
+    ],
+    "impulse_noise": [
+      0.9615,
+      0.935,
+      0.914,
+      0.8235,
+      0.6355
+    ]
+  }
+}

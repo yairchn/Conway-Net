@@ -1,0 +1,49 @@
+{
+  "mechanism": "ca",
+  "network_class": "BaselineCNN",
+  "data_name": "FashionMNIST_COLOR",
+  "activation": "tanh",
+  "n_params": 111562,
+  "best_val_acc": 0.8908333333333334,
+  "last_val_acc": 0.8891666666666667,
+  "test_clean_acc": 0.8833,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5,
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      0.5,
+      0.5
+    ]
+  ],
+  "clean": 0.885,
+  "mCA": 0.6515000000000001,
+  "noise_mCA": 0.6515000000000001,
+  "per_corruption": {
+    "gaussian_noise": [
+      0.8475,
+      0.823,
+      0.738,
+      0.587,
+      0.3305
+    ],
+    "shot_noise": [
+      0.838,
+      0.816,
+      0.741,
+      0.543,
+      0.3675
+    ],
+    "impulse_noise": [
+      0.847,
+      0.7935,
+      0.72,
+      0.496,
+      0.2845
+    ]
+  }
+}

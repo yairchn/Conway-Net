@@ -1,0 +1,81 @@
+{
+  "model": {
+    "network_class": "BaselineCNN",
+    "norm": "none",
+    "dropout": 0.0,
+    "init_method": "uniform",
+    "weight_init_min": 0.01,
+    "weight_init_max": 0.05,
+    "conv1_channels": 32,
+    "conv2_channels": 64,
+    "conv_padding": 0,
+    "head_bottleneck": false,
+    "conv_dropout": false,
+    "stem_lc": false,
+    "activation": "tanh",
+    "matched_none": false,
+    "stem_lift": false,
+    "init_classifier": "same",
+    "conv_stem": "none"
+  },
+  "lateral_inhibition": {
+    "mechanism": "none",
+    "rule": "B5/S3",
+    "gamma": 15.0,
+    "delta": 0.5,
+    "normalize_gates": false,
+    "require_rescaling": true,
+    "require_zero_centring": false,
+    "channel_reduce": "mean",
+    "channel_reduce_stage": "input",
+    "num_groups": null,
+    "neighbourhood_radius": 1
+  },
+  "optimizer": {
+    "type": "muon",
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "momentum": 0.9,
+    "muon_adamw_lr_ratio": 0.1
+  },
+  "training": {
+    "num_epochs": 200,
+    "batch_size": 128,
+    "seed": 3,
+    "lr_schedule": "constant",
+    "max_norm": 5.0,
+    "num_workers": 4,
+    "device": "cuda",
+    "val_frac": 0.1,
+    "split_seed": 42
+  },
+  "augmentation": {
+    "augmix_severity": 0,
+    "augmix_width": 3,
+    "augmix_alpha": 1.0
+  },
+  "evaluation": {
+    "eval_mca": true,
+    "mca_corruptions": "noise",
+    "mca_n_samples": 2000
+  },
+  "data": {
+    "data_name": "KMNIST_COLOR",
+    "data_path": "./data",
+    "data_norms": [
+      [
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  "logging": {
+    "output_path": "paper_runs/cnn_kmnist_color_perch_s3"
+  }
+}

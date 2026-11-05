@@ -1,0 +1,8 @@
+{
+  "arm": "blur_0.25",
+  "seed": 0,
+  "best_val_acc": 0.9844974162360394,
+  "last_val_acc": 0.9821636939489915,
+  "test_clean_acc": 0.9839,
+  "config": "configs/paper/tanh/fcn_mnist_tanh_ns_ki_ca.json"
+}

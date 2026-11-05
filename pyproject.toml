@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conwaynet"
+version = "0.1.0"
+description = "Cellular-automaton lateral inhibition (deep LI=CA) — clean reference implementation"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }   # PolyForm Noncommercial 1.0.0; see NOTICE and PATENTS
+dependencies = [
+    "captum",
+    "quantus",
+    "torch>=2.0",
+    "torchvision>=0.15",
+    "numpy>=1.23",
+]
+
+[tool.setuptools.packages.find]
+include = ["conwaynet*"]

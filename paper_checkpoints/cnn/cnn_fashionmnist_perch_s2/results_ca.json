@@ -1,0 +1,45 @@
+{
+  "mechanism": "ca",
+  "network_class": "BaselineCNN",
+  "data_name": "FashionMNIST",
+  "activation": "tanh",
+  "n_params": 110986,
+  "best_val_acc": 0.8886666666666667,
+  "last_val_acc": 0.8838333333333334,
+  "test_clean_acc": 0.8844,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ],
+  "clean": 0.889,
+  "mCA": 0.7884666666666666,
+  "noise_mCA": 0.7884666666666666,
+  "per_corruption": {
+    "gaussian_noise": [
+      0.863,
+      0.846,
+      0.8025,
+      0.764,
+      0.673
+    ],
+    "shot_noise": [
+      0.8615,
+      0.8535,
+      0.828,
+      0.8025,
+      0.7565
+    ],
+    "impulse_noise": [
+      0.858,
+      0.8215,
+      0.7945,
+      0.717,
+      0.5855
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "mechanism": "ca",
+  "target": 0.8496,
+  "arm_target": 0.8521,
+  "phase1_crossing": 636.8996571428571,
+  "part_a_epochs": 631,
+  "part_b_max_epochs": 369,
+  "final_val_acc": 0.8524822695035461,
+  "reached": true,
+  "test_clean_acc": 0.8452659574468085,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "mechanism": "ca",
+  "network_class": "BaselineCNN",
+  "data_name": "EMNIST",
+  "activation": "tanh",
+  "n_params": 452015,
+  "best_val_acc": 0.8499113475177305,
+  "last_val_acc": 0.8451241134751774,
+  "test_clean_acc": 0.8436702127659574,
+  "init_from": null,
+  "data_norms": [
+    [
+      0.5
+    ],
+    [
+      0.5
+    ]
+  ],
+  "clean": 0.8345,
+  "mCA": 0.7794000000000001,
+  "noise_mCA": 0.7794000000000001,
+  "per_corruption": {
+    "gaussian_noise": [
+      0.8375,
+      0.828,
+      0.821,
+      0.8055,
+      0.6935
+    ],
+    "shot_noise": [
+      0.8325,
+      0.829,
+      0.826,
+      0.779,
+      0.7125
+    ],
+    "impulse_noise": [
+      0.824,
+      0.8095,
+      0.809,
+      0.737,
+      0.547
+    ]
+  }
+}

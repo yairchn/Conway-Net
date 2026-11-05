@@ -1,0 +1,77 @@
+{
+  "model": {
+    "network_class": "WideResNet",
+    "depth": 40,
+    "widen_factor": 2,
+    "norm": "gn",
+    "dropout": 0.0,
+    "init_method": "kaiming_tanh",
+    "weight_init_min": 0.0,
+    "weight_init_max": 0.0,
+    "activation": "tanh",
+    "matched_none": false,
+    "init_classifier": "same",
+    "stem_gate": "none",
+    "wrn_stem": "conv",
+    "stem_bound": "none"
+  },
+  "lateral_inhibition": {
+    "mechanism": "ca",
+    "rule": "B5/S3",
+    "gamma": 15.0,
+    "delta": 0.5,
+    "normalize_gates": true,
+    "require_rescaling": true,
+    "require_zero_centring": false,
+    "channel_reduce": "mean",
+    "channel_reduce_stage": "gates",
+    "num_groups": null,
+    "neighbourhood_radius": 1
+  },
+  "optimizer": {
+    "type": "sgd",
+    "lr": 0.1,
+    "weight_decay": 0.0005,
+    "momentum": 0.9
+  },
+  "training": {
+    "num_epochs": 400,
+    "batch_size": 128,
+    "seed": 0,
+    "lr_schedule": "cosine",
+    "max_norm": 5.0,
+    "num_workers": 8,
+    "device": "cuda",
+    "val_frac": 0.1,
+    "split_seed": 42
+  },
+  "augmentation": {
+    "augmix_severity": 5,
+    "augmix_width": 3,
+    "augmix_alpha": 1.0
+  },
+  "evaluation": {
+    "eval_mca": true,
+    "mca_corruptions": "all15",
+    "mca_n_samples": 2000
+  },
+  "data": {
+    "data_name": "CIFAR10",
+    "data_path": "./data",
+    "data_norms": [
+      [
+        0.4914,
+        0.4822,
+        0.4465
+      ],
+      [
+        0.2023,
+        0.1994,
+        0.201
+      ]
+    ]
+  },
+  "logging": {
+    "output_path": "paper_runs/wrn_cifar10"
+  }
+}
