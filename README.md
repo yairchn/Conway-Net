@@ -3,6 +3,9 @@
 Clean reference implementation of **cellular-automaton lateral inhibition** for image classification,
 and the code behind every figure, table and number in the paper.
 
+**Project page and interactive demo:** [lateralintuition.com](https://lateralintuition.com) — draw a digit and
+follow it through a 10-layer MLP with and without lateral inhibition, in the browser.
+
 A layer is a non-local linear op (`conv`/`linear`) followed by the bounded nonlinearity `tanh`.
 Let `x` be the input to that op and `z` its `tanh` output. The lateral-inhibition gate rewires the
 layer as
