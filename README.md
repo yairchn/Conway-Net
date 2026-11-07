@@ -16,6 +16,17 @@ continuous Game-of-Life-style rule (paper: `B5/S3`) over each cell's neighbourho
 blends the birth/survive fields with the activation. Setting the mechanism to `none` gives the
 plain `tanh` network — the two are the only arms this repo supports.
 
+<p align="center">
+  <a href="media/ConwayNet_activation_and_sailency.mp4">
+    <img src="media/ConwayNet_activation_and_sailency_preview.gif" width="800"
+         alt="Activations and saliency through the 10 hidden layers of the MNIST MLP, with lateral inhibition and plain">
+  </a>
+</p>
+<p align="center"><em>The 10-layer MNIST MLP with lateral inhibition (left) and plain (right), on test digits 0–9:
+the activations of every hidden layer in the forward pass, then the sensitivity of the predicted class to each
+activation, |∂logit/∂activation|, in the backward pass. Click for the full video
+(<a href="media/ConwayNet_activation_and_sailency.mp4">mp4</a>).</em></p>
+
 ## Scope
 
 The code holds only what the paper uses.
@@ -55,6 +66,7 @@ paper_code/               # the analyses behind the tables and the numbers in th
                           # figure scripts read (training of the control networks included)
 paper_checkpoints/        # the canonical trained networks + verify.py
 paper_runs/               # every trained run (checkpoints, configs, results)
+media/                    # the activation-and-saliency video shown above, and its preview
 ```
 
 ## Usage
