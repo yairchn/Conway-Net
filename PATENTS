@@ -15,11 +15,13 @@ layer's input) is the subject of the following patent applications. Inventor and
     Title:    State-conditioned lateral inhibition/excitation via continuous cellular-automaton rules for
               activation in deep neural networks
     Type:     provisional (35 U.S.C. 111(b))
+    Status:   priority application of the PCT application above (a provisional application is not examined
+              and lapses 12 months after filing; its priority date is carried by the PCT application)
 
 The two applications relate to the same underlying invention to the extent of the subject matter disclosed in
 both; the PCT application claims priority to the provisional application. Any difference in titles is for
 identification purposes only.
 
 Use of this software for noncommercial purposes is licensed under the PolyForm Noncommercial License 1.0.0
-(LICENSE), including its patent license. Any commercial use of the software or of the patented method requires a
+(LICENSE), including its patent license. Any commercial use of the software or of the method requires a
 separate license from Yair Cohen.

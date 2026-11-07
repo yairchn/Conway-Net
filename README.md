@@ -84,6 +84,7 @@ PYTHONPATH=. python paper_checkpoints/verify.py      # rebuild + re-test every c
 
 Copyright (c) 2025-2026 Yair Cohen. Licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE): any
 noncommercial use is permitted, including academic research and teaching; commercial use requires a separate
-license from the author. The method is the subject of pending patent applications (U.S. Provisional
-No. 63/860,671; PCT/IL2026/050267) owned by Yair Cohen; see [PATENTS](PATENTS) and [NOTICE](NOTICE).
+license from the author. The method is the subject of a pending International (PCT) Patent Application,
+No. PCT/IL2026/050267, which claims priority to U.S. Provisional No. 63/860,671; both are owned by Yair Cohen.
+See [PATENTS](PATENTS) and [NOTICE](NOTICE).
 
